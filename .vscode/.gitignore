@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+*.egg
+.eggs/
+
+# Test / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# MyPy, pip-tools, caches
+.mypy_cache/
+.cache/
+pip-log.txt
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+tmp/
+temp/
+
+# Generated images / animations from this project
+julia_frame_*.png
+*.png
+*.gif
+julia_animation.gif
+
+# Go build outputs and vendor (keep go.mod/go.sum tracked)
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+bin/
+vendor/
+
+# Misc
+.env.local
+.env.*.local
